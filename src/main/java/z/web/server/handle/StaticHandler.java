@@ -1,4 +1,4 @@
-package z.service.server.handle;
+package z.web.server.handle;
 
 import org.eclipse.jetty.server.handler.ResourceHandler;
 

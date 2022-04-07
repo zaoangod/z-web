@@ -1,9 +1,9 @@
-package z.service.route;
+package z.web.route;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import z.service.Request;
-import z.service.Response;
+import z.web.Request;
+import z.web.Response;
 
 public final class RouteContext {
 

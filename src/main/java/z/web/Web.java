@@ -1,24 +1,15 @@
-package z.service;
+package z.web;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import z.service.route.Method;
-import z.service.ssl.SslStore;
+import z.web.route.Method;
+import z.web.ssl.SslStore;
 
 public class Web {
 
     private static final Logger log = LoggerFactory.getLogger(Web.class);
 
-    private static final Config config = new Config();
-
     private Web() {
-    }
-
-    /**
-     * 全局实例
-     */
-    public static Config config() {
-        return config;
     }
 
     //初始化单例服务
@@ -173,7 +164,6 @@ public class Web {
     /*public static void path(String path, HandlerGroup handlerGroup) {
         instance().addRouteGroup(path, handlerGroup);
     }*/
-
     public static void main(String[] args) {
         Web.get("/", (a, b) -> {
             log.info("-> 测试路由");

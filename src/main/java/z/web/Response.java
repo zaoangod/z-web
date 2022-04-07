@@ -1,4 +1,4 @@
-package z.service;
+package z.web;
 
 import jakarta.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;

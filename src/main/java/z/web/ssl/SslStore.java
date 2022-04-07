@@ -1,4 +1,4 @@
-package z.service.ssl;
+package z.web.ssl;
 
 /**
  * SSL Stores

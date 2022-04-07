@@ -1,6 +1,6 @@
-package z.service.route;
+package z.web.route;
 
-import z.service.kit.WebKit;
+import z.web.kit.WebKit;
 
 import java.util.List;
 

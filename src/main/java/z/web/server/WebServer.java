@@ -1,4 +1,4 @@
-package z.service.server;
+package z.web.server;
 
 import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Handler;
@@ -8,10 +8,10 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.util.thread.ThreadPool;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import z.service.kit.Assert;
-import z.service.route.RouteStore;
-import z.service.server.handle.ContentHandler;
-import z.service.ssl.SslStore;
+import z.web.kit.Assert;
+import z.web.route.RouteStore;
+import z.web.server.handle.ContentHandler;
+import z.web.ssl.SslStore;
 
 public class WebServer {
 

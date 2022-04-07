@@ -1,6 +1,6 @@
-package z.service;
+package z.web;
 
-import z.service.ssl.SslStore;
+import z.web.ssl.SslStore;
 
 public final class Config {
 

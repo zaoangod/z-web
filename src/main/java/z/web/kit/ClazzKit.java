@@ -1,4 +1,4 @@
-package z.service.kit;
+package z.web.kit;
 
 /**
  * 内部专用工具

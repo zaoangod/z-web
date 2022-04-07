@@ -1,4 +1,4 @@
-package z.service.kit;
+package z.web.kit;
 
 import java.util.function.Supplier;
 

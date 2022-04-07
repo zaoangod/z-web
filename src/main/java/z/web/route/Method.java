@@ -1,4 +1,4 @@
-package z.service.route;
+package z.web.route;
 
 import java.util.HashMap;
 import java.util.Map;
