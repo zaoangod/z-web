@@ -12,11 +12,9 @@ public class Web {
     private Web() {
     }
 
-    //初始化单例服务
+    //Core单例服务
     private static class SingletonCore {
-
         private static final Core INSTANCE = Core.create();
-
     }
 
     public static Core instance() {
